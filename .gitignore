@@ -1,52 +1,11 @@
-# Prerequisites
-*.d
+# Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
+bin
+obj
+Bin
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# mstest test results
+TestResults
 
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+#DB
+DB4OServer
+DB\ Editor
