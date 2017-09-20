@@ -60,8 +60,8 @@ namespace SagaLogin
             commandTable.Add(0xFE02, new Packets.Client.SendMapPing());
             commandTable.Add(0xFE03, new Packets.Map.Get.MapPong());
 
-			//Client v126 packets [DanielArt]
-			commandTable.Add(0x7751, new Packets.Client.GameConnection());
+            //Client v126 packets [DanielArt]
+            commandTable.Add(0x7751, new Packets.Client.GameConnection());
 
             this.waitressQueue = new AutoResetEvent(false);
             this.waitressHasFinished = new ManualResetEvent(false);
